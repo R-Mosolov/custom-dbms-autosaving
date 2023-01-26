@@ -13,12 +13,12 @@ const server = http.createServer((req, res) => {
 });
 
 setInterval(() => {
-  const docs = new Docs();
-  docs.create("test-db", {
-    id: uuidv4(),
-    firstName: "Test",
-    email: "test@mail.ru",
-  });
+  // const docs = new Docs();
+  // docs.create("test-db", {
+  //   id: uuidv4(),
+  //   firstName: "Test",
+  //   email: "test@mail.ru",
+  // });
   exec(
     "git add . && git commit -m \"Create copy of databases\" && git push",
     function(err, stdout, stderr) {
