@@ -1,0 +1,23 @@
+{
+  "name": "custom-dbms-autosaving",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-Mosolov/custom-dbms-autosaving.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-Mosolov/custom-dbms-autosaving/issues"
+  },
+  "homepage": "https://github.com/R-Mosolov/custom-dbms-autosaving#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
